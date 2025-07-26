@@ -17,7 +17,7 @@ app.post('/send', async (req, res) => {
     const { error } = await resend.emails.send({
       from: 'OptimizeAI <onboarding@resend.dev>',
       to: ['pinipur@gmail.com'],
-      subject: 'New Signup for OptimizeAI!',
+      subject: 'New Signup for τLayer!',
       html: `
         <h2>🚀 New Signup Received</h2>
         <p><strong>Full Name:</strong> ${fullName}</p>
